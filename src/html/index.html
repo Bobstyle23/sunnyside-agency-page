@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <title>Main page</title>
+  </head>
+  <body>
+    <!-- @@include('./components/hero-section-bullets/hero.html') -->
+
+    <picture>
+      <source
+        srcset="
+          ./img/desktop/image-header.webp,
+          ./img/desktop/image-header@2x.webp 2x,
+          ./img/desktop/image-header@3x.webp 3x
+        "
+        type="image/webp"
+        media="(min-width: 48em)"
+      />
+      <img src="./img/mobile/image-header.webp" alt="" />
+    </picture>
+    <img src="./img/mobile/image-gallery-milkbottles.jpg" alt="" />
+    <img src="./img/mobile/image-gallery-orange.jpg" alt="" />
+    <img src="./img/mobile/image-gallery-cone.jpg" alt="" />
+    <img src="./img/mobile/image-gallery-sugar-cubes.jpg" alt="" />
+    <img loading="lazy" src="./img/mobile/image-transform.jpg" alt="" />
+    <img loading="lazy" src="./img/mobile/image-stand-out.jpg" alt="" />
+    <img loading="lazy" src="./img/mobile/image-graphic-design.jpg" alt="" />
+    <img loading="lazy" src="./img/mobile/image-photography.jpg" alt="" />
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>
