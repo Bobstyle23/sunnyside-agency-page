@@ -1,9 +1,5 @@
 node_modules
 package.json
 yarn.lock
-gulpfile.js
-utilities.js
-webpack.config.js
-build
-gulp
+
 

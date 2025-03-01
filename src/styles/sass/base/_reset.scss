@@ -20,7 +20,7 @@ html {
 
 body {
   line-height: 1;
-  font-weight: 400;
+  font-family: "Barlow";
 }
 
 h1,
@@ -60,7 +60,10 @@ svg {
   //* Add width: 100% if needed to some images
 }
 
-input,button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
